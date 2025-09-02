@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
+        header {
+            background: #6c63ff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            display: inline-block;
+            padding: 12px;
+        }
+        nav a:hover {
+            background: #6c63ff;
+            border-radius: 5px;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about, .contact {
+            background: white;
+            margin: 20px auto;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #6c63ff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #5548c8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shivani Dhiran</h1>
+        <p>Web Developer | Learner | Creative</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Shivani, learning web development. I love creating simple and beautiful websites. I am hardworking and eager to learn new things every day.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to connect, click the button below:</p>
+        <button onclick="alert('Email: shivani@example.com')">Show Contact</button>
+    </section>
+
+</body>
+</html>
